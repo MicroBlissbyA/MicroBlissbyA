@@ -1,35 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Micro Bliss by A</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <meta name="description" content="Micro Bliss by A - Spreading small moments of joy">
-  <meta name="keywords" content="micro joy, happiness, Micro Bliss by A">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Home – Micro Bliss by A</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="frontend/style/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
-  <div class="scalloped-top"></div>
-  <header class="site-header">
-    <h1>Micro Bliss by A <i class="fas fa-heart" style="color: #ff8c66;"></i></h1>
-    <nav>
-      <ul>
-        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
-        <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
-        <li><a href="services.html"><i class="fas fa-leaf"></i> Services</a></li>
-        <li><a href="blog.html"><i class="fas fa-pen"></i> Blog</a></li>
-        <li><a href="gallery.html"><i class="fas fa-camera"></i> Gallery</a></li>
-        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <div id="header"></div>
+
   <main>
     <section class="hero">
       <div class="hero-overlay">
-        <span>JOY SMILE HAPPINESS JOY SMILE HAPPINESS JOY SMILE HAPPINESS</span>
+        <span>JOY SMILE HAPPINESS JOY SMILE HAPPINESS</span>
       </div>
       <div class="hero-content">
         <h2>SPREAD JOY <span>EVERY DAY!</span></h2>
@@ -40,51 +26,14 @@
       <div class="content-text">
         <h3>Bringing Micro Moments of Happiness</h3>
         <p>At Micro Bliss by A, we believe in the power of <span class="highlight">small joys</span>! Whether it’s a kind word, a warm smile, or a moment of gratitude, we’re here to inspire positivity every day.</p>
-        <p>Our mission is to help you find happiness in the little things—because even the smallest spark can light up your day! Join us in spreading joy with simple, adorable ideas that make life brighter.</p>
-        <p>Discover the magic of micro joys with us. Let’s create a ripple effect of happiness, one tiny moment at a time!</p>
       </div>
       <div class="content-image">
-        <img src="images/about-smile.jpg" alt="Smiling person" onerror="this.src='https://via.placeholder.com/400x300?text=Image+Not+Found'">
+        <img src="images/about-smile.jpg" alt="Smiling person">
       </div>
     </section>
   </main>
-  <footer>
-    <section class="newsletter-section">
-      <h2>Join Our Joyful Community <i class="fas fa-bell"></i></h2>
-      <form action="https://formspree.io/f/your-form-id" method="POST">
-        <input type="email" name="email" placeholder="Enter your email" required>
-        <button type="submit" class="submit-button">Subscribe <i class="fas fa-paper-plane"></i></button>
-      </form>
-    </section>
-    <div class="footer-content">
-      <div class="social-links">
-        <a href="https://x.com/yourusername" target="_blank"><i class="fab fa-x-twitter"></i></a>
-        <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
-      </div>
-      <div class="contact-info">
-        <p><i class="fas fa-envelope"></i> mail@microblissbya.com</p>
-        <p><i class="fas fa-phone"></i> +91 1234567890</p>
-      </div>
-      <div class="footer-logo">
-        <div class="heart-background">
-          <p>Micro Bliss by A <i class="fas fa-heart"></i><br>New Delhi, India 110013</p>
-        </div>
-      </div>
-    </div>
-    <nav class="footer-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="blog.html">Blog</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-    <p>© 2025 Micro Bliss by A <i class="fas fa-paw"></i> | All Rights Reserved</p>
-  </footer>
-  <div class="scalloped-bottom"></div>
-  <script src="script.js"></script>
+
+  <div id="footer"></div>
+  <script src="frontend/scripts/layout.js"></script>
 </body>
 </html>

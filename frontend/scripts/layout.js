@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gallery - Micro Bliss by A</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lato&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-  <meta name="description" content="Explore the joyful gallery from Micro Bliss by A">
-  <meta name="keywords" content="micro joy, gallery, Micro Bliss by A">
-</head>
-<body>
-  <header>
-    <h1>Micro Bliss by A <i class="fas fa-heart" style="color: #ff9800;"></i></h1>
+// Inject Header
+document.getElementById("header").innerHTML = `
+  <header class="site-header">
+    <h1>Micro Bliss by A <i class="fas fa-heart" style="color: #ff8c66;"></i></h1>
     <nav>
       <ul>
         <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
@@ -25,17 +13,11 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <section class="gallery-section">
-      <h2>Gallery of Joy <i class="fas fa-camera"></i></h2>
-      <div class="gallery-grid">
-        <img src="images/hero-joy.jpg" alt="Joyful moment">
-        <img src="images/about-smile.jpg" alt="Smiling person">
-        <img src="images/walk-nature.jpg" alt="Walk in nature">
-        <img src="images/note.jpg" alt="Thank you note">
-      </div>
-    </section>
-  </main>
+  <div class="scalloped-top"></div>
+`;
+
+// Inject Footer
+document.getElementById("footer").innerHTML = `
   <footer>
     <section class="newsletter-section">
       <h2>Join Our Joyful Community <i class="fas fa-bell"></i></h2>
@@ -55,7 +37,9 @@
         <p><i class="fas fa-phone"></i> +91 1234567890</p>
       </div>
       <div class="footer-logo">
-        <p>Micro Bliss by A <i class="fas fa-heart"></i><br>New Delhi, India 110013</p>
+        <div class="heart-background">
+          <p>Micro Bliss by A <i class="fas fa-heart"></i><br>New Delhi, India 110013</p>
+        </div>
       </div>
     </div>
     <nav class="footer-nav">
@@ -69,7 +53,6 @@
       </ul>
     </nav>
     <p>© 2025 Micro Bliss by A <i class="fas fa-paw"></i> | All Rights Reserved</p>
+    <div class="scalloped-bottom"></div>
   </footer>
-  <script src="script.js"></script>
-</body>
-</html>
+`;

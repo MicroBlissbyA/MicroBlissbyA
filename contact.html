@@ -3,35 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Services – Micro Bliss by A</title>
+  <title>Contact – Micro Bliss by A</title>
   <link rel="icon" type="image/x-icon" href="favicon.ico" />
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Lato&display=swap" rel="stylesheet">
-  <!-- Your CSS -->
   <link rel="stylesheet" href="frontend/style/styles.css" />
-  <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
 </head>
 <body>
-  <!-- Dynamic Header -->
   <div id="header"></div>
 
-  <!-- Main Content -->
   <main>
     <section class="content-section">
-      <h2>Our Services</h2>
-      <p>We offer joyful experiences to uplift your spirit:</p>
-      <ul>
-        <li>Daily inspiration emails</li>
-        <li>Kindness challenges</li>
-        <li>Printable joy prompts</li>
-        <li>Creative workshops</li>
-      </ul>
-      <p>Everything is designed to help you find happiness in the small things.</p>
+      <h2>Contact Us</h2>
+      <p>Have a question or want to share a joyful idea? We'd love to hear from you!</p>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="name" placeholder="Your name" required />
+        <input type="email" name="email" placeholder="Your email" required />
+        <textarea name="message" placeholder="Your message" rows="4" required></textarea>
+        <button type="submit">Send Message <i class="fas fa-paper-plane"></i></button>
+      </form>
     </section>
   </main>
 
-  <!-- Dynamic Footer -->
   <div id="footer"></div>
   <script src="frontend/scripts/layout.js"></script>
 </body>
