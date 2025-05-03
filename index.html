@@ -4,28 +4,98 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Micro Bliss by A</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Lato&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <meta name="description" content="Micro Bliss by A - Spreading small moments of joy">
+  <meta name="keywords" content="micro joy, happiness, Micro Bliss by A">
 </head>
 <body>
   <header>
-    <h1>Micro Bliss by A</h1>
+    <h1>Micro Bliss by A <i class="fas fa-heart" style="color: #ff9800;"></i></h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+        <li><a href="about.html"><i class="fas fa-users"></i> About</a></li>
+        <li><a href="services.html"><i class="fas fa-leaf"></i> Services</a></li>
+        <li><a href="blog.html"><i class="fas fa-pen"></i> Blog</a></li>
+        <li><a href="gallery.html"><i class="fas fa-camera"></i> Gallery</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Welcome to Micro Bliss</h2>
-      <p>Small Moments, Big Joy!</p>
+    <section class="hero">
+      <div class="hero-container">
+        <img src="images/hero-joy.jpg" alt="Joyful moment" class="hero-image">
+        <div class="hero-text">
+          <h2>Welcome to Micro Bliss</h2>
+          <p>Small Moments, Big Joy!</p>
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 60C240 120 480 0 720 60C960 120 1200 0 1440 60V120H0V60Z" fill="#ffcc80"/>
+      </svg>
+    </div>
+    <section class="welcome-section">
+      <h2>Find Your Joy <i class="fas fa-rainbow"></i></h2>
+      <p>Explore tiny moments of happiness with us every day! Let’s sprinkle some magic into your life. <i class="fas fa-magic"></i></p>
+    </section>
+    <section class="joy-tip-section">
+      <h2>Daily Micro Joy Tip <i class="fas fa-smile-beam"></i></h2>
+      <button onclick="showJoyTip()" class="joy-button"><i class="fas fa-gift"></i> Get a Tip!</button>
+      <p id="joy-tip" class="joy-tip-text"></p>
+    </section>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 60C240 120 480 0 720 60C960 120 1200 0 1440 60V120H0V60Z" fill="#fff9c4"/>
+      </svg>
+    </div>
+    <section class="featured-section">
+      <h2>Featured Joy Moments <i class="fas fa-star"></i></h2>
+      <div class="featured-cards">
+        <div class="card">
+          <img src="images/walk-nature.jpg" alt="Walk in nature">
+          <h3>Nature Walk</h3>
+          <p>Feel the breeze and smile at the trees!</p>
+        </div>
+        <div class="card">
+          <img src="images/tea.jpg" alt="Tea time">
+          <h3>Tea Time</h3>
+          <p>Sip and savor a moment of peace.</p>
+        </div>
+      </div>
+    </section>
+    <div class="wave-divider">
+      <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 60C240 120 480 0 720 60C960 120 1200 0 1440 60V120H0V60Z" fill="#ffcc80"/>
+      </svg>
+    </div>
+    <section class="quote-section">
+      <h2>A Little Joy Goes a Long Way <i class="fas fa-quote-left"></i></h2>
+      <p>"Happiness doesn’t have to be big—just a smile can light up your day!" — Micro Bliss by A</p>
+    </section>
+    <section class="cta">
+      <h2>Spread Joy Today! <i class="fas fa-sparkles"></i></h2>
+      <a href="services.html" class="cta-button"><i class="fas fa-rocket"></i> Explore Services</a>
     </section>
   </main>
   <footer>
-    <p>&copy; 2025 Micro Bliss by A</p>
+    <section class="newsletter-section">
+      <h2>Join Our Joyful Community <i class="fas fa-bell"></i></h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit" class="submit-button">Subscribe <i class="fas fa-paper-plane"></i></button>
+      </form>
+    </section>
+    <p>© 2025 Micro Bliss by A <i class="fas fa-paw"></i></p>
+    <div class="social-links">
+      <a href="https://x.com/yourusername" target="_blank"><i class="fab fa-x-twitter"></i></a>
+      <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
   </footer>
   <script src="script.js"></script>
 </body>
