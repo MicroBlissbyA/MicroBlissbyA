@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="footer-left">
           <h3>Connect With Us</h3>
           <div class="social-links">
-            <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://facebook.com/yourusername" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/microblissbya" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://facebook.com/microblissbya" target="_blank"><i class="fab fa-facebook-f"></i></a>
             <a href="mailto:microblissbya@gmail.com"><i class="fas fa-envelope"></i></a>
           </div>
         </div>
